@@ -7,7 +7,7 @@
             "Whatsva\\LibraryWhatsappGateway\\": "src/"
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {},
     "extra": {
         "laravel": {
