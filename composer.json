@@ -1,0 +1,19 @@
+{
+    "name": "nova/library-whatsapp-gateway",
+    "description": "Whatsapp Gateway free number API",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Nova\\LibraryWhatsappGateway\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Nova\\LibraryWhatsappGateway"
+          ]
+        }
+      }
+}
