@@ -1,22 +1,19 @@
 {
-    "name": "whatsva/library-whatsapp-gateway",
-    "description": "Whatsapp Gateway free number API",
+    "name": "whatsva/whatsapp-gateway",
+    "description": "Whatsapp API to make it easier to manage and or send a message",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Whatsva\\WhatsappGateway\\": "src/"
-        },
-        "classmap": [
-            "src/Whatsva.php"
-        ]
-    },
-    "minimum-stability": "dev",
-    "require": {},
-    "extra": {
-        "laravel": {
-          "providers": [
-            "Whatsva\\WhatsappGateway"
-          ]
         }
-      }
+    },
+    "authors": [
+        {
+            "name": "novaariyanto",
+            "email": "bajangsampoerna@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
 }

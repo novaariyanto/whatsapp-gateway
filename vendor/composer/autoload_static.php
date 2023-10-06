@@ -4,17 +4,17 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3fb8377eb92a3ec0f28ad9a9bd43a17d
+class ComposerStaticInitcf41b6dd2da832174acaff80b3687c59
 {
     public static $prefixLengthsPsr4 = array (
-        'N' => 
+        'W' => 
         array (
-            'Nova\\LibraryWhatsappGateway\\' => 28,
+            'Whatsva\\WhatsappGateway\\' => 24,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Nova\\LibraryWhatsappGateway\\' => 
+        'Whatsva\\WhatsappGateway\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -27,9 +27,9 @@ class ComposerStaticInit3fb8377eb92a3ec0f28ad9a9bd43a17d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit3fb8377eb92a3ec0f28ad9a9bd43a17d::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit3fb8377eb92a3ec0f28ad9a9bd43a17d::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit3fb8377eb92a3ec0f28ad9a9bd43a17d::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitcf41b6dd2da832174acaff80b3687c59::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitcf41b6dd2da832174acaff80b3687c59::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitcf41b6dd2da832174acaff80b3687c59::$classMap;
 
         }, null, ClassLoader::class);
     }

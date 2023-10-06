@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Nova\\LibraryWhatsappGateway\\' => array($baseDir . '/src'),
+    'Whatsva\\WhatsappGateway\\' => array($baseDir . '/src'),
 );

@@ -1,5 +1,6 @@
 <?php 
-namespace WhatsappGateway;
+namespace Whatsva\WhatsappGateway;
+
 class Whatsva {
 
    private $config = [];
