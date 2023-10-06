@@ -1,8 +1,8 @@
-<?php 
+<?php
 
-require_once('../src/Whatsva.php');
 
 use WhatsappGateway\Whatsva;
+
 
 $config = [
     "client_key"=>"6dHL72Ty",

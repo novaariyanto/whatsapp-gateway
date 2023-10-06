@@ -4,15 +4,18 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Whatsva\\LibraryWhatsappGateway\\": "src/"
-        }
+            "Whatsva\\WhatsappGateway\\": "src/"
+        },
+        "classmap": [
+            "src/Whatsva.php"
+        ]
     },
     "minimum-stability": "dev",
     "require": {},
     "extra": {
         "laravel": {
           "providers": [
-            "Whatsva\\LibraryWhatsappGateway"
+            "Whatsva\\WhatsappGateway"
           ]
         }
       }
