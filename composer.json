@@ -1,5 +1,5 @@
 {
-    "name": "nova/library-whatsapp-gateway",
+    "name": "nova24/library-whatsapp-gateway",
     "description": "Whatsapp Gateway free number API",
     "type": "library",
     "autoload": {
