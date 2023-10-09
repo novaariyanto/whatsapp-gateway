@@ -20,7 +20,7 @@ $config = [
 ];
 
 $receiver = "62895361034833";
-$message = "Hallo, Good morning sir !";
+$message = "Hello, Good morning sir !";
 
 $whatsapp = new Whatsva($config);
 
