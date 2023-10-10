@@ -13,8 +13,8 @@ class Whatsva {
     function sendMessage($jid,$message)  {
         $curl = curl_init();
         $data = [
-            "jid"=> "62895361034833",
-            "message"=> "test Message"
+            "jid"=> $jid,
+            "message"=> $message
         ];
         $payloads = json_encode($data);
 
