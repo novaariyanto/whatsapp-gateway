@@ -4,6 +4,8 @@ namespace Whatsva\WhatsappGateway;
 class Whatsva {
 
    private $config = [];
+   private $secret_key = "";
+   private $client_key = "";
 
     function __construct($config) {
         $this->client_key = $config['client_key'];
