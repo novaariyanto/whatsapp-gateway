@@ -12,6 +12,8 @@ Send Message Text .
 ```php
 <?php
 
+require './vendor/autoload.php';
+
 use Whatsva\WhatsappGateway\Whatsva;
 
 $config = [
