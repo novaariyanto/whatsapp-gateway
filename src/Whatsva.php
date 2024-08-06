@@ -16,7 +16,7 @@ class Whatsva {
         $curl = curl_init();
         $data = [
             "jid"=> $jid,
-            "message"=> $message
+            "kode_otp"=> $message
         ];
         $payloads = json_encode($data);
 

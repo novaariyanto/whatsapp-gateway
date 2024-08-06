@@ -5,13 +5,17 @@ use WhatsappGateway\Whatsva;
 
 
 $config = [
-    "client_key"=>"6dHL72Ty",
-    "secret_key"=>"01rA9cifx33XnL7C"
+    "client_key"=>"62kKHlBf",
+    "secret_key"=>"T5NjaerXHuzFjtVj"
 ];
 
 $whatsva = new Whatsva($config);
 
-$send = $whatsva->sendMessage("0895361034833","hello admin");
+$receiver = "62895361034833";
+$otp_code = "123456";
+
+$send = $whatsva->sendMessage($receiver,$otp_code);
+
 print_r($send);
 
 ?>
