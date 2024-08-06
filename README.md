@@ -17,16 +17,16 @@ require './vendor/autoload.php';
 use Whatsva\WhatsappGateway\Whatsva;
 
 $config = [
-    "client_key"=>"6dHL72Ty",
-    "secret_key"=>"01rA9cifx33XnL7C"
+    "client_key"=>"62kKHlBf",
+    "secret_key"=>"T5NjaerXHuzFjtVj"
 ];
 
 $receiver = "62895361034833";
-$message = "Hai Nova Ariyanto, masukkan kode verifikasi OTP : 690586 \n\n kode berlaku 2 menit.";
+$otp_code = "123456";
 
 $whatsapp = new Whatsva($config);
 
-echo $whatsapp->sendMessage($receiver,$message);
+echo $whatsapp->sendMessage($receiver,$otp_code);
 
 ```
 
